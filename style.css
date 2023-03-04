@@ -169,7 +169,7 @@ body{
     overflow: hidden;
     font-size: 12px;
     font-weight: 700;
-    color: rgba(255, 255, 255, 0.849);
+    color: rgba(255, 255, 255, 0.632);
     word-wrap: break-word;
     
 }
@@ -187,7 +187,7 @@ body{
 }
 
 .blog-btns button{
-    padding: 10px 12px;
+    padding: 15px 20px;
     background-color: black;
     border: 1px solid white;
     color: white;
