@@ -165,10 +165,12 @@ body{
 }
 
 .blog-description p {
-    text-overflow: clip;
+    text-overflow: ellipsis;
+    overflow: hidden;
     font-size: 12px;
     font-weight: 700;
     color: rgba(255, 255, 255, 0.849);
+    word-wrap: break-word;
     
 }
 

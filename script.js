@@ -141,8 +141,11 @@ function printBlogsByArray(blogObj, index){
     blogDescription.setAttribute('class', 'blog-description' )
     // creating p child of blogDescription
     let blogDescriptionP = document.createElement('p');
+    console.log(blogDescriptionP);
     blogDescriptionP.textContent = "" + blogObj.blogDescription;
     blogDescription.appendChild(blogDescriptionP);
+    console.log(blogDescriptionP)
+
 
     // 3. third div
     let blogDetails = document.createElement('div');
